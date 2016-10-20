@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+   <alpha
+        android:duration="1000"
+        android:fromAlpha="0.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:toAlpha="1.0"/>
+    <translate
+        android:duration="1000"
+        android:fromYDelta="20%"
+        android:toYDelta="-10%"/>
+</set>
+
+<!-- rename parent folder 'animator' to something else
+    for duration 1000, goes from 0.0 to 1.0 (fades -> darkens) fadein
+-->
